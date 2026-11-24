@@ -1,0 +1,12 @@
+# Python build artifacts, recreated on demand (spec-query's specquery.ps1 bootstraps its .venv)
+__pycache__/
+.venv/
+
+# spec-query: symlinks to spec roots on this machine, created by `specquery.ps1 add-source`
+.agents/skills/spec-query/references/source/
+
+# spec-query: extraction output, regenerated from source/ by specquery.ps1
+.agents/skills/spec-query/references/cache/
+
+# chrome-use: per-machine launcher defaults, copied from start-browser.example.psd1
+.agents/skills/chrome-use/scripts/start-browser.psd1

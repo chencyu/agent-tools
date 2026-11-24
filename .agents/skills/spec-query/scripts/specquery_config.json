@@ -1,0 +1,7 @@
+{
+  "_comment": "spec-query extraction settings: which files under references/source/ (the spec roots registered by `add-source`) `sync` extracts into references/cache/.",
+  "extract": {
+    "extensions": [".docx", ".pdf", ".pptx", ".xlsx"],
+    "skip_glob": ["~$*", ".~*", "*.tmp"]
+  }
+}
